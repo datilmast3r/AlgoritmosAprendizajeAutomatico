@@ -16,16 +16,14 @@ public class App {
                 data.setClassIndex(data.numAttributes() - 1);
             }
 
-            // Create a new JRip classifier
-            // Note: Weka does not have a direct implementation of FOIL.
-            // JRip is a rule-based learner that can be used for similar tasks.
-            JRip jrip = new JRip();
+            // Create a new Foil classifier
+            Foil foil = new Foil();
 
             // Build the classifier
-            jrip.buildClassifier(data);
+            foil.buildClassifier(data);
 
             // Print the rules
-            System.out.println(jrip);
+            System.out.println(foil);
 
         } catch (Exception e) {
             e.printStackTrace();
