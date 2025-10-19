@@ -19,7 +19,7 @@ public class Main {
             
             // **IMPORTANTE:** Necesitas el archivo ARFF. Si no lo tienes, usa un PATH absoluto 
             // o descárgalo de los ejemplos de Weka.
-            String dataPath = "data/weather.nominal2.arff"; // Ejemplo de ruta local
+            String dataPath = "data/coches.arff"; // Ejemplo de ruta local
             
             // Usar la clase DataSource de Weka para cargar el archivo
             DataSource source = new DataSource(dataPath);

@@ -1,0 +1,15 @@
+@relation coches_ejemplo_cea
+
+@attribute Origen {Japon, EEUU}
+@attribute Marca {Honda, Toyota, Chrysler}
+@attribute Color {Azul, Verde, Blanco}
+@attribute Decada {1970, 1980, 1990}
+@attribute Tipo {Economico, Deportivo}
+@attribute Clase {yes, no}
+
+@data
+Japon,Honda,Azul,1980,Economico,yes
+Japon,Toyota,Verde,1970,Deportivo,no
+Japon,Toyota,Azul,1990,Economico,yes
+EEUU,Chrysler,Azul,1980,Economico,no
+Japon,Honda,Blanco,1980,Economico,yes
