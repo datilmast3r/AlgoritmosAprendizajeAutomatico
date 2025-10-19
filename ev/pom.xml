@@ -18,8 +18,8 @@
         <!-- Añade la dependencia de Weka -->
         <dependency>
             <groupId>nz.ac.waikato.cms.weka</groupId>
-            <artifactId>weka-stable</artifactId>
-            <version>3.8.6</version> <!-- Puedes usar la versión más reciente -->
+            <artifactId>weka-dev</artifactId>
+            <version>3.9.5</version>
         </dependency>
     </dependencies>
 
